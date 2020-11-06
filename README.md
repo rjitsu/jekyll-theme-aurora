@@ -1,4 +1,5 @@
 # jekyll-theme-aurora
+![build](https://travis-ci.com/rjitsu/jekyll-theme-aurora.svg?branch=master)
 
 Aurora is a jekyll theme for blogs made with clean design in mind. It can be used for setting up blogs very fast with just a few lines of markdown.
 
