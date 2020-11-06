@@ -1,11 +1,6 @@
 # jekyll-theme-aurora
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
-
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
-
+Aurora is a jekyll theme for blogs made with clean design in mind. It can be used for setting up blogs very fast with just a few lines of markdown.
 
 ## Installation
 
@@ -30,8 +25,9 @@ Or install it yourself as:
     $ gem install jekyll-theme-aurora
 
 ## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+- Aurora has four layouts, namely home, default, page and post. You can make your own layouts too!
+- To write posts, head to posts folder, and write your files in markdown. Add the regular front matter on top of your files and save files in the manner the dummy files are stored in.
+- For styling your blog, go in assets, and change the style.css file.
 
 ## Contributing
 
