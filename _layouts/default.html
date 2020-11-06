@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="light-theme || dark-theme">
+  <article class="container">
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      {% include nav.html %}
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+  </article>
+  </body>
+  <script>
+    const btn = document.querySelector('.theme-switch input[type="checkbox"]');
+
+// Listen for a click on the button
+   btn.addEventListener('click', function() {
+  // Then toggle (add/remove) the .dark-theme class to the body
+  document.body.classList.toggle('light-theme');  
+});
+
+
+</script>
+</html>
+
